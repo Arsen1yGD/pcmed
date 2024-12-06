@@ -25,6 +25,6 @@ Chained into 1 command:
 
 # How it works
 
-It opens a .wav file, reads it's samples, and writing them in a template:<br/>
+It opens a .wav file, reads it's samples, and writes them in a template:<br/>
 <code>// Set sample rate to {sample rate}&#10;t||(c=\`{samples converted to utf-16 string}\`),c.charCodeAt(t%c.length)/32768-1</code>.
 
